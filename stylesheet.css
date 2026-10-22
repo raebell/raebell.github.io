@@ -1,0 +1,252 @@
+
+
+ body.indexpage{ /*background stuff for index pages*/
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'chalkduster', sans-serif;
+    margin: 0%;
+    padding-bottom: 3vh;
+            }
+
+body.content{ /*background stuff for non-index pages*/
+    margin: 0%; 
+    min-height: 100vh; 
+    font-family: 'Comic Sans MS', sans-serif;
+    background-image: url("images/page-background.jpg");
+    background-size: cover;
+    padding-bottom: 3vh;
+    padding-top: 4vh;
+ }
+
+ .navigation{ /*navigation bar at top of non-index pages*/
+    width: 100%;
+    top: 0;
+    height: 3.5vh;
+    position: fixed;
+    text-align: center;
+    background-image: url(images/green-paper.png);
+    background-size: cover;
+    padding: 0.5em;
+    outline-style: solid;
+    
+ }
+    .link-item{/*nav buttons on nav bar*/
+        text-decoration: none;
+        background-image: url(images/yellow-paper.png);
+        border-radius: 0.2em;
+        padding: 0.2em;
+        color:black;
+        font-size: 0.8em;
+        font-weight: lighter;
+        margin: 6vw;
+        outline: black;
+        outline-width: thin;
+        outline-style: solid;
+    }
+
+
+ p{ /*general text size info for all pages*/
+  font-size: 1em;
+     margin-left: 3vw;
+    margin-right: 3vw;
+            }
+
+/*INDEX PAGE STYLE*/
+    .row{ 
+     display: flex;
+        }
+    
+.column-left{ /* index top left section */
+        width: 33vw;
+        height: 66vh;  
+            }
+    .cloud-photo1{
+        display: block;
+        margin: auto;
+        padding-top: 5vh;
+        width: 20vw;
+            }
+         .cloud-photo1:hover{
+            transform: rotate(8deg); 
+             }
+
+.column-middle{ /* index top center section*/
+    width: 33vw; 
+    height: 50vh;
+             }
+     .cloud-photo2{
+        display: block;
+        margin: auto;
+        padding-top: 15vh;
+        width: 20vw;
+            
+         }
+        .cloud-photo2:hover{
+             transform: rotate(-5deg); 
+             }
+
+ 
+
+
+ .column-right{ /*index top right section*/
+    width: 33vw;
+    height: 50vh;
+    text-align: center;
+            }
+    .sun-photo{
+        display: block;
+        margin: auto;
+        padding-top: 2vh;
+        width: 12vw;
+             }
+        .sun-photo:hover{
+         transform: rotate(15deg); 
+             }
+
+ .column-1{/*index bottom left section */
+    width: 33vw;
+    height: 33vh;
+    background-image: url(images/pond.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center top;
+            }
+                
+    .column-1:hover{
+        background-image: url(images/pond-boat.png);
+        background-size: contain;
+        background-repeat: no-repeat; 
+        background-position: center;
+            }   
+         #maritime-text{
+            text-align:center;
+            }
+ .column-2{ /* index bottom middle section  */
+
+                width: 33vw;
+                height: auto;
+                background-image: url(images/hole.png);
+                background-size: contain;
+                background-repeat: no-repeat; 
+                background-position: center;
+            }
+     .column-2:hover{background-image: url(images/hole-with-puppet.png);
+               background-size: contain;
+                background-repeat: no-repeat; 
+                background-position: center;
+            }
+           
+        #aboutme-text{
+                text-align: center;
+                
+            }
+ .column-3{/*index  bottom right section */
+    width: 33vw;
+    height: auto;
+    background-image: url(images/house-without-smoke.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+    margin-bottom: 2vh;
+  
+            }
+     .column-3:hover{
+        background-image: url(images/house-with-smoke.png);
+        background-size: contain;
+        background-repeat: no-repeat; 
+        background-position: center;
+        margin-bottom: 2vh;
+
+         }
+        #museums-text{
+                text-align: center;
+            }
+    /* style for links to pages from index page */
+  .custom-link{
+    text-decoration: none;
+    color:black;
+    font-size: 1.5em;
+            }
+    .custom-link:hover{
+        text-decoration: none;
+        color:purple;
+        font-size: 1.7em;
+            }
+
+ 
+/* ABOUT ME PAGE STYLE  */
+
+ h1{text-align: center;}
+ 
+ .row{
+    display:flex
+    }
+.long{ /* top section with header  */
+        width: 100vw
+    }
+ .AM-column-left{ /* about me column with text  */
+    width: 50vw;
+    padding-left: 2vw;
+    padding-right: 5vw;          
+    }
+   
+    .about{
+        text-align: left;
+    }
+         #hello{ /* making first sentence in left column bolder than rest of p text */
+            text-align: left;
+            font-weight: bolder;
+    }
+          #opiniontable{ /*table within about me column left*/
+            padding-left: 3vw;
+            width: 30rem;
+            text-align: left;
+}
+ .AM-column-right{ /* about me column with photo  */
+    width: 50vw;
+    padding-left: 5vw;
+    padding-right: 5vw;             
+    }
+        .rae-photo{
+            display: block;
+            margin: auto;
+            padding-top: 5vh;
+            width: 30em;
+        }
+            .caption-text{
+                font-size: 0.8em;
+                text-align: center;
+    }
+
+ /*MARITIME PAGE STYLE*/  
+    .boat-photo{
+        display: block;
+        margin: auto;
+        width: 40vw;
+            }
+    #chl-list{
+        padding-left: 5em;
+        margin-right: 5em;
+            }
+
+ /*MUSEUM PAGE STYLE*/       
+     #museum-list{
+        padding-left: 6em;
+      
+            }
+
+/*footer*/
+.footer{
+    height: auto;
+    min-height: 2vh;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+    background-image: url(images/purple-paper.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: 0.5em;
+    margin-bottom: 0em;
+}
